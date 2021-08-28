@@ -24,6 +24,7 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
+                                                <th>NO</th>
                                                 <th>NAMA_SISWA</th>
                                                 <th>KETERANGAN</th>
                                                 <th>MAPEL</th>
@@ -33,8 +34,10 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php $no=1; ?>
                                             @foreach($agenda as $agenda)
                                             <tr>
+                                                <td>{{ $no++ }}</td>
                                                 <td>{{ $agenda->nama_siswa }}</td>
                                                 <td>{{ $agenda->keterangan }}</td>
                                                 <td>{{ $agenda->mapel }}</td>

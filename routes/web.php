@@ -54,4 +54,11 @@ Route::group(['middleware' => ['auth','checkrole:admin,sekeltaris']],function(){
         Route::post('/siswa/{id}/update', 'siswacontroller@update');
         Route::get('/siswa/{id}/delete', 'siswacontroller@delete');
         Route::get('/siswa/{id}/profile','siswacontroller@profile');
+
+        //agenda
+        Route::get('/agenda', 'agendacontroller@index');
+        Route::post('/agenda/create', 'agendacontroller@create');
+        Route::get('/agenda/{id}/edit', 'agendacontroller@edit');
+        Route::post('/agenda/{id}/update', 'agendacontroller@update');
+        Route::get('/agenda/{id}/delete', 'agendacontroller@delete');
 });

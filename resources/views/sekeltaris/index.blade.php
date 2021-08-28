@@ -24,6 +24,7 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
+                                                <th>NO</th>
                                                 <th>NAMA USER</th>
                                                 <th>NAMA</th>
                                                 <th>KELAS</th>
@@ -33,8 +34,10 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php $no=1; ?>
                                             @foreach($sekeltaris as $sekeltaris)
                                             <tr>
+                                                <td>{{ $no++ }}</td>
                                                 <td>{{ $sekeltaris->user_id }}</td>
                                                 <td>{{ $sekeltaris->nama }}</td>
                                                 <td>{{ $sekeltaris->kelas }}</td>
