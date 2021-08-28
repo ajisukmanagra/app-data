@@ -13,7 +13,7 @@ class siswamodel extends Model
     public function getAvatar()
     {
         if(!$this->avatar){
-            return asset('images/default.jpg');
+            return asset('images/admin.png');
         }
 
         return asset('images/'.$this->avatar);

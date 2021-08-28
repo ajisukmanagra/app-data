@@ -24,6 +24,7 @@
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
+                                                <th>NO</th>
                                                 <th>NAMA DEPAN</th>
                                                 <th>NAMA BELAKANG</th>
                                                 <th>JENIS KELAMIN</th>
@@ -33,8 +34,10 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php $no=1; ?>
                                             @foreach($siswa as $siswa)
                                             <tr>
+                                                <td>{{ $no++ }}</td>
                                                 <td> <a
                                                         href="/siswa/{{ $siswa->id }}/profile">{{ $siswa->nama_depan }}</a>
                                                 </td>
@@ -92,8 +95,8 @@
                             <label for="exampleFormControlSelect1">Pilih Kelamin</label>
                             <select name="jenis_kelamin" class="form-control" id="exampleFormControlSelect1">
                                 <option>--Pilih--</option>
-                                <option value="L">Laki Laki</option>
-                                <option value="P">Perempuan</option>
+                                <option value="Laki laki">Laki Laki</option>
+                                <option value="Perempuan">Perempuan</option>
                             </select>
                         </div>
                         <div class="form-group">

@@ -35,10 +35,10 @@
                                             <select name="jenis_kelamin" class="form-control"
                                                 id="exampleFormControlSelect1">
                                                 <!--<option>--Pilih--</option>-->
-                                                <option value="L" @if($siswa->jenis_kelamin == 'L') selected @endif>Laki
+                                                <option value="Laki laki" @if($siswa->jenis_kelamin == 'L') selected @endif>Laki
                                                     Laki
                                                 </option>
-                                                <option value="P" @if($siswa->jenis_kelamin == 'P') selected
+                                                <option value="Perempuan" @if($siswa->jenis_kelamin == 'P') selected
                                                     @endif>Perempuan
                                                 </option>
                                             </select>
