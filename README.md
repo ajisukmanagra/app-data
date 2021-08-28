@@ -1,6 +1,6 @@
 ### APLIKASI inputan data
 
-#### BUILD WITH LARAVEL 8
+#### BUILD WITH LARAVEL 6
 
 ##### Untuk mulai menggunakan aplikasi, harap baca ini.
 1. Clone repository ini, dengan tekan tombol **CODE (warna hijau)** lalu salin link https repository
