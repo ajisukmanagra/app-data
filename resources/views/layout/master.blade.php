@@ -19,16 +19,17 @@
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('admin/assets/img/apple-icon.png')}}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('admin/assets/img/favicon.png')}}">
+
 </head>
 
 <body>
     <!-- WRAPPER -->
     <div id="wrapper">
         <!-- NAVBAR -->
-       @include('layout.include.navbar')
-        <!-- END NAVBAR --> 
+        @include('layout.include.navbar')
+        <!-- END NAVBAR -->
         <!-- LEFT SIDEBAR -->
-      @include('layout.include.sidebar')
+        @include('layout.include.sidebar')
         <!-- END LEFT SIDEBAR -->
         <!-- MAIN -->
         @yield('content')
@@ -46,6 +47,17 @@
     <script src="{{asset('admin/assets/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
     <script src="{{asset('admin/assets/vendor/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
     <script src="{{asset('admin/assets/scripts/klorofil-common.js')}}"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+<script>
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+    })
+
+</script>
 
 </html>
