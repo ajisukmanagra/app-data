@@ -19,6 +19,11 @@
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="76x76" href="{{asset('admin/assets/img/apple-icon.png')}}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{asset('admin/assets/img/favicon.png')}}">
+    <style>
+        body{
+            background-color: #3742fa;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,8 +35,8 @@
                     <div class="left">
                         <div class="content">
                             <div class="header">
-                                <div class="logo float-left"><img src="{{asset('admin/assets/img/login.png')}}"
-                                        alt="Klorofil Logo" width="300px"></div>
+                                <div class="logo float-left"><img src="{{asset('images/admin.png')}}"
+                                        alt="logo login" width="300px"></div>
                                 <p class="lead">Login</p>
                             </div>
                             <form class="form-auth-small" action="/postlogin" method="POST">

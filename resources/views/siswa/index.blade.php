@@ -7,11 +7,6 @@
                 <div class="col-md-12">
                     <div class="panel">
                         <div class="panel-heading">
-                            @if(session('sukses'))
-                            <div class="alert alert-success" role="alert">
-                                {{session('sukses')}}
-                            </div>
-                            @endif
                             <h3 class="panel-title">Data Siswa</h3>
                             <div slass="left">
                                 <a type="button" class="btn btn-success btn-sm btn-toggle" data-toggle="modal"
@@ -120,4 +115,6 @@
                 </div>
             </div>
         </div>
+        @endsection
+        @section('footer')
         @endsection
