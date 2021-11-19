@@ -14,4 +14,4 @@
 9. Lalu dowload data sql di link drive ini <a href="https://drive.google.com/file/d/1k6LX_EE4W4IiN_Qfz7dNHZ3D3CfE7Lwe/view?usp=sharing"> data sql</a> 
 
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
-Bila menemukan kendala/bug, harap lapor ke **AJI SUKMA NAGARA** kelas **XII RPL 2** sekolah ""SMK NURUL ISLAM CIANJUR""
+Bila menemukan kendala/bug, harap lapor ke **AJI SUKMA NAGARA** kelas **XII RPL 2** sekolah **SMK NURUL ISLAM CIANJUR**
