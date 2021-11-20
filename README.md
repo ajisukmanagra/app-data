@@ -15,3 +15,4 @@
 
 Note: Aplikasi belum selesai sepenuhnya, jadi masih ada bagian yang kosong/rusak.
 Bila menemukan kendala/bug, harap lapor ke **AJI SUKMA NAGARA** kelas **XII RPL 2** sekolah **SMK NURUL ISLAM CIANJUR**
+**TERIMA KASIH**
